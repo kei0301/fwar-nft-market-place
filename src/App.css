@@ -1,0 +1,56 @@
+html,
+html body {
+  font-family: Inter, Roboto, Helvetica, Arial, serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.45;
+  background-color: white;
+  height: 100%;
+}
+
+* {
+  /* animation: begin 0.6s ease; */
+  transition: all 0.3 ease;
+}
+#root {
+  height: 100%;
+}
+.menu-item-active {
+  display: block;
+  color: white;
+  background: linear-gradient(118deg, #febe43, rgba(250, 181, 78, 0.857));
+  border-radius: 0.4rem;
+  font-weight: 700;
+}
+.menu-item-active > :hover {
+  color: white !important;
+}
+::-webkit-scrollbar {
+  width: 2px;
+}
+@media only screen and (min-width: 600px) {
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #febe43;
+  }
+}
+#rank tr:nth-child(even) {
+  background-color: #323663;
+}
+/* #selectTeam table {
+  display: block;
+  width: 100%;
+
+  overflow: auto;
+}
+#selectTeam tbody {
+  display: block;
+  width: 100%;
+  height: 400px;
+  overflow: auto;
+} */
+/* ::-webkit-scrollbar-track {
+  background: #febe43;
+} */
